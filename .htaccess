@@ -1,0 +1,12 @@
+# Deny access to all files and directories
+Order deny,allow
+Deny from all
+
+# Allow access to the specified file
+Allow from all
+Satisfy any
+
+# Redirect any request to the index.html file
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

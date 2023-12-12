@@ -1,0 +1,36 @@
+html, body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: initial; */
+
+}
+
+.menu li {
+    padding: 15px 0;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.menu a:hover {
+    color: #ccc;
+}
